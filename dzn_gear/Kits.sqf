@@ -58,7 +58,7 @@ kit_seal_pl = [
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",2],["HANDGUN MAG",3],["CUP_30Rnd_556x45_Stanag",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",2],["HANDGUN MAG",3],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_seal_sl = [
@@ -68,22 +68,22 @@ kit_seal_sl = [
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",2],["HANDGUN MAG",3],["CUP_30Rnd_556x45_Stanag",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",2],["HANDGUN MAG",3],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_seal_ftl = [
 	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","","usm_bdu_boonie_wdl",""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_Colt727","30Rnd_556x45_Stanag",["muzzle_snds_M","","CUP_optic_Aimpoint_5000",""]],
+	["<PRIMARY WEAPON >>  ","CUP_smg_MP5SD6","CUP_30Rnd_9x19_MP5",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",2],["HANDGUN MAG",3],["CUP_30Rnd_556x45_Stanag",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",2],["HANDGUN MAG",3],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_seal_mg = [
 	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_MG_GRN","CUP_B_AlicePack_OD","usm_bdu_boonie_wdl",""],
-	["<PRIMARY WEAPON >>  ","CUP_lmg_M60","CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",["","","",""]],
+	["<PRIMARY WEAPON >>  ","CUP_lmg_M60E4_norail","CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -93,7 +93,7 @@ kit_seal_mg = [
 ];
 kit_seal_r = [
 	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD","usm_bdu_boonie_wdl",""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_Colt727","CUP_30Rnd_556x45_Stanag",["muzzle_snds_M","","CUP_optic_Aimpoint_5000",""]],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_Colt727","CUP_30Rnd_556x45_Stanag",["muzzle_snds_M","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],

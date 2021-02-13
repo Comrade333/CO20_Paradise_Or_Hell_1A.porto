@@ -11,11 +11,11 @@ GVAR(LineText1)	= "%1/%2/%3";
 GVAR(LineStyle1) = "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 2nd line
-GVAR(LineText2)	= "Район Н, Страна Н, Регион Н";
+GVAR(LineText2)	= "Остров Порто, Карибы";
 GVAR(LineStyle2) = "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 3rd line
-GVAR(LineText3) = "Операция 'Без имени'";
+GVAR(LineText3) = "Операция 'Paradise'";
 GVAR(LineStyle3) = "<t align = 'right' shadow = '1' size = '0.9' font='PuristaBold'><br />%1</t>";
 
 // Other settings
