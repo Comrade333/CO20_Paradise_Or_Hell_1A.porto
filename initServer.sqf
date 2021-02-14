@@ -6,8 +6,8 @@
 private _date = [
 	date
 	, "par_daytime" call BIS_fnc_getParamValue
-	/* Расширеные опции: ["day","night","morning","midday","evening","midnight","random"] */
-	, ["day","night","random"] 
+	,["day","night","morning","midday","evening","midnight","random"] 
+
 ] call dzn_fnc_randomizeTime;
 
 /*
