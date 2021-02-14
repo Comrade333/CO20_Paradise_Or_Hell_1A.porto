@@ -50,9 +50,9 @@
 #define UNIFORM_ITEMS_L		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
 // ****************
 
-
+#define SEAL_HELM ["CUP_H_USArmy_Helmet_Protec_NVG","CUP_H_FR_BandanaGreen","TRYK_H_Bandana_H","usm_bdu_boonie_wdl"]
 kit_seal_pl = [
-	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","usm_pack_st138_prc77","CUP_H_FR_BandanaGreen",""],
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","usm_pack_st138_prc77",SEAL_HELM,""],
 	["<PRIMARY WEAPON >>  ","CUP_smg_MP5SD6","CUP_30Rnd_9x19_MP5",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
@@ -62,7 +62,7 @@ kit_seal_pl = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_seal_sl = [
-	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","usm_pack_st138_prc77","TRYK_H_Bandana_H",""],
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","usm_pack_st138_prc77",SEAL_HELM,""],
 	["<PRIMARY WEAPON >>  ","CUP_smg_MP5SD6","CUP_30Rnd_9x19_MP5",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
@@ -82,7 +82,7 @@ kit_seal_ftl = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_seal_mg = [
-	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_MG_GRN","CUP_B_AlicePack_OD","usm_bdu_boonie_wdl",""],
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_MG_GRN","CUP_B_AlicePack_OD",SEAL_HELM,""],
 	["<PRIMARY WEAPON >>  ","CUP_lmg_M60E4_norail","CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
@@ -92,7 +92,7 @@ kit_seal_mg = [
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",3]]]
 ];
 kit_seal_r = [
-	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD","usm_bdu_boonie_wdl",""],
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD",SEAL_HELM,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_Colt727","CUP_30Rnd_556x45_Stanag",["muzzle_snds_M","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
@@ -102,7 +102,7 @@ kit_seal_r = [
 	["<BACKPACK ITEMS >> ",[["DemoCharge_Remote_Mag",3],["ACE_Clacker",1]]]
 ];
 kit_seal_mm = [
-	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD","usm_bdu_boonie_wdl",""],
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD",SEAL_HELM,""],
 	["<PRIMARY WEAPON >>  ","CUP_srifle_M21","CUP_20Rnd_762x51_DMR",["CUP_muzzle_snds_M14","","CUP_optic_artel_m14","CUP_bipod_VLTOR_Modpod_black"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["muzzle_snds_acp","","",""]],
@@ -112,7 +112,7 @@ kit_seal_mm = [
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",14],["CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",2]]]
 ];
 kit_seal_gr = [
-	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD","usm_bdu_boonie_wdl",""],
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_roll_gloves_dirty_M81","CUP_V_B_RRV_Scout","CUP_B_AlicePack_OD",SEAL_HELM,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_Colt727_M203","CUP_30Rnd_556x45_Stanag",["muzzle_snds_M","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["","","",""]],
@@ -120,6 +120,16 @@ kit_seal_gr = [
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["HANDGUN MAG",3],["PRIMARY MAG",8],["rhs_mag_M441_HE",2]]],
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["rhs_mag_M441_HE",15],["DemoCharge_Remote_Mag",3]]]
+];
+kit_us_pilot = [
+	["<EQUIPEMENT >>  ","CUP_U_B_USArmy_PilotOverall","CUP_V_B_PilotVest","","CUP_H_SPH4_green_visor",""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","CUP_7Rnd_45ACP_1911",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
+	["<VEST ITEMS >> ",[["HandGrenade",3],["HANDGUN MAG",3],["Chemlight_blue",2],["SmokeShellBlue",2],["SmokeShellGreen",2],["B_IR_Grenade",1]]],
+	["<BACKPACK ITEMS >> ",[]]
 ];
 #define CUBA_HEAD ["H_Booniehat_oli","ssh68_khaki","CUP_H_US_patrol_cap_OD"]
 kit_cuban_random = [

@@ -33,4 +33,4 @@ GVAR(RequiredLRRadio) = true;
 /* AI Pilot
  */
 GVAR(PilotClass) = "B_helipilot_F";
-GVAR(PilotKit) = "";
+GVAR(PilotKit) = "kit_us_pilot";
